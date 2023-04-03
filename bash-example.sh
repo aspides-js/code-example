@@ -8,7 +8,6 @@
 #SBATCH --mail-type=END # send email at job completion 
 #SBATCH --job-name=convert-to-bed
 
-module load SAMtools
 module load BAMTools
 
 FILES=$( ls *.bam )
