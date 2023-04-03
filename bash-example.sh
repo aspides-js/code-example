@@ -18,4 +18,4 @@ for each in $FILES;
   bamToBed -i $each > ${each%.bam}.bed;
   done
 
-echo "Job is complete"
+ehco "Job is complete"
