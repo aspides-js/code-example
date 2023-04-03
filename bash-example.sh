@@ -14,7 +14,7 @@ module load BAMTools
 FILES=$( ls *.bam )
 
 for each in $FILES;
-  do each $each;
+  do echo $each;
   bamToBed -i $each > ${each%.bam}.bed;
   done
 
