@@ -1,5 +1,7 @@
 #! /bin/bash
-read -p "Enter the input: " val
+
+source inputNumber.sh
+
 zero_val=0
 if [ "$val" -gt "$zero_val" ]
    echo "Positive number entered."
