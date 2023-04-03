@@ -1,6 +1,6 @@
 #! /bin/bash
 
-source inputNumber.sh
+source ./inputNumber.sh
 
 zero_val=0
 if [ "$val" -gt "$zero_val" ]
